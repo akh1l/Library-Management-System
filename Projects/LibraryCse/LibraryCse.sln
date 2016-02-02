@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 14 for Web
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "LibraryCse", "..\..\WebSites\LibraryCse\", "{163334C5-5631-400B-8F6D-DCBB7B081FE5}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52287"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\LibraryCse\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52287\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52287"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\LibraryCse\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52287\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52287"
+		SlnRelativePath = "..\..\WebSites\LibraryCse\"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{163334C5-5631-400B-8F6D-DCBB7B081FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{163334C5-5631-400B-8F6D-DCBB7B081FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
