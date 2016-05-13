@@ -2,6 +2,11 @@ body{
     background-color:#004466;
     color:#ffffff;
 }
+.logo{
+    position:absolute;
+    left:50%;
+    top:50%;
+}
  .logInTable{
     background-color:transparent;
     width:190px;
@@ -36,9 +41,9 @@ body{
 }
 .LogInHeader
 {
+    
     text-align:center;
     color:#004466;
-
 }
 .buttons
 {
@@ -46,36 +51,43 @@ body{
     -moz-border-radius: 5px;
     border-radius: 5px;
     }
-.TjitHeader, .welcomeHeader
+
+.TjitHeader, .welcomeHeader ,.Issue-ReturnBook
 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight:300;
+    position:relative;
+    font-family: 'Courier New' ;
+    font-weight:200;
     text-align:center;
     font-size:3em;
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
 }
-.aroundTheTableadminBook
+
+.aroundTheTableadminBook ,.aroundTheTableissue , .aroundIssueDatabase
 {
+    position:relative;
     background-color:#e6e6e6;
     height:300px;
     width:300px;
-    position:absolute;
-    top: 50%;
-    left: 10%;
-    margin-top:-150px;
+    margin-top:38px;
+    left:40%;
+    margin-left:-300px;
     border: 1px solid;
     border-radius: 25px;
+    float:left;
 }
-.aroundTheTableadminUser
+.aroundTheTableadminUser ,.aroundTheTableReturn ,.aroundReturnDatabase
 {
     background-color:#e6e6e6;
+    position:relative;
     height:300px;
     width:300px;
-    position:absolute;
-    top: 50%;
-    left: 40%;
-    margin-top:-150px;
+    margin-top:-0px;
+    left:60%;
     border: 1px solid;
     border-radius: 25px;
+    float:none;
 }
 .bookAddTable
 {   
@@ -84,10 +96,21 @@ body{
     position:absolute;
     top:50%;
     left:50%;
-    margin-top:-100px;
+    margin-top:-115px;
     margin-left:-95px;
+}
+.IssueReturnTable
+{   
+    width:200px;
+    height:150px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-75px;
+    margin-left:-100px;
     background-color:transparent;
 }
+
 .userAddTable
 {
     width:190px;
@@ -97,37 +120,231 @@ body{
     left:50%;
     margin-top:-115px;
     margin-left:-95px;
-    background-color:transparent;
+}
+/*table for issue and return */
+.StudentDetailsTable
+{   
+    width:190px;
+    height:200px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-100px;
+    margin-left:-95px;
+}
+.BookDetailsTable
+{   
+    width:190px;
+    height:200px;
+    position:absolute;
+    top:40%;
+    left:50%;
+    margin-top:-100px;
+    margin-left:-95px;
 }
 
-
-#RegisterButton
-{
-    margin-left:4px;
-}
-#SignOutButton
+#SignOutButton , #SignOutButton1
 {
     position:relative;
     float:right;
     top: -100px;
 }
-.tableHeaderBook{
+
+/*Headers*/
+/*Outer frame for allignment*/
+.headerDivLeft{
     position:relative;
-    float:left;
-    left:20%;
-    margin-left:-80px; 
-    font-family: 'Source Sans Pro', sans-serif;
+    width:300px;
+    margin-top:4%;
+    left:40%;
+    margin-left:-300px;
+}
+.headerDivRight
+{
+    position:relative;
+    width:300px;
+    top:-40px;
+    left:60%;
+}
+/*content inside the div*/
+.tableHeaderBook , .tableHeaderIssue ,.HeaderIssueDatabase{
+    text-align:center;
+    font-family: 'Courier New';
     font-weight:300;
     font-size:2em;
-    margin-top:50px;
 }
-.tableHeaderUser {
-    position: relative;
-    float: left;
-    left: 45%;
-    margin-left: -35px;
-    font-family: 'Source Sans Pro', sans-serif;
+.tableHeaderUser , .tableHeaderReturn ,.HeaderReturnDatabase {
+    text-align:center;
+    font-family: 'Courier New';
     font-weight: 300;
     font-size: 2em;
-    margin-top:50px;
+}
+
+.HeaderIssue-ReturnDataBase {
+    text-align:center;
+    font-family: 'Courier New';
+    font-weight: 300;
+    font-size: 3em;
+}
+
+.Submit1
+{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+     border-radius: 5px;
+     position:absolute;
+     top:48px;
+     left:98px;
+     margin-left:-95px;
+ }
+
+/*search page css*/
+#SearchBoxName{
+    width:600px;
+    height:25px;
+}
+.searchTable{
+    position:relative;
+    top:10%;
+    width:800px;
+    left:50%;
+    margin-left:-400px;
+}
+.RadioTable{
+     position:relative;
+     top:10%;
+     width:900px;
+}
+.searchDiv{
+    position:relative;
+    height:200px;
+    top:20%;
+    left:50%;
+    margin-left:-450px;
+    width:900px;
+}
+.searchButtons{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height:35px;
+    width:180px;
+    font-size:1em;
+    font-weight:200;
+}
+    */
+/*issue and return css*/
+/*css for drop down menu*/
+.DropDownList
+{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+     border-radius: 5px;
+     border:solid 1px black;
+     padding:5px;
+     margin-bottom:5px;
+     text-align: left;
+     height:27px;
+     width:190px;
+}
+
+/*css for issue and return history*/
+.IssueCatalogButton{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    top:70%;
+    height:40px;
+    width:200px;
+    font-size:1em;
+    font-weight:200;
+}
+.ReturnCatalogButton{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    top:80%;
+    left:40%;
+    height:40px;
+    width:200px;
+    font-size:1em;
+    font-weight:200;
+}
+/*issue and return css*/
+/*css for drop down menu*/
+.DropDownList
+{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+     border-radius: 5px;
+     border:solid 1px black;
+     padding:5px;
+     margin-bottom:5px;
+     text-align: left;
+     height:27px;
+     width:190px;
+}
+.HistoryDiv{
+    position:relative;
+    margin-top:5%;
+   margin-left:auto;
+   margin-right:auto;
+}
+.labels {
+    position:relative;
+    margin-right:auto;
+    margin-top:5%;
+    margin-left:auto;
+}
+.frontLabel{
+    position:relative;
+    margin-right:auto;
+    margin-top:30%;
+    margin-left:auto;
+}
+.navbar
+{   
+    position:relative;
+    height:45px;
+    left:50%;
+    margin-left:-400px;
+    width:800px;
+}
+
+.HistoryGrid
+{
+   position:relative;
+   margin-top:5px;
+   margin-left:auto;
+   margin-right:auto;
+}
+
+/*nav bar buttons*/
+.button {
+    background-color: #e6e6e6; 
+    border: none;
+    color: darkblue;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Monotype Corsiva' ;
+    cursor: pointer;
+    float: left;
+    position: center;
+    width: 200px;
+}
+.button:hover {
+    background-color: deepskyblue;
+} 
+.image
+{
+    position: absolute;
+    float:left; 
+    border-radius: 10px; 
+    text-decoration-color: #004466; 
+    top: 25px; 
+    left: 25px; 
+    float:left;
 }
